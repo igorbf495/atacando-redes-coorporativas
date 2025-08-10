@@ -129,3 +129,40 @@ OS and Service detection performed. Please report any incorrect results at https
 Nmap done: 1 IP address (1 host up) scanned in 75.05 seconds
 
 ```
+### Serviços identificados:
+
+Dovecot pop3d
+
+Dovecot imapd (Ubuntu)
+
+Apache httpd 2.4.41 ((Ubuntu))
+
+vsftpd 3.0.3
+
+Postfix smtpd
+
+OpenSSH 8.2p1 Ubuntu 4ubuntu0.5 (Ubuntu Linux; protocol 2.0)
+
+2-4 (RPC #100000)
+
+tem um dns rodando:
+
+```
+53/tcp   open  domain   (unknown banner: 1337_HTB_DNS)
+| dns-nsid: 
+|_  bind.version: 1337_HTB_DNS
+| fingerprint-strings: 
+|   DNSVersionBindReqTCP: 
+|     version
+|     bind
+|_    1337_HTB_DNS
+```
+
+Transferência de Zona DNS para ver se conseguimos enumerar subdomínios válidos:
+
+```
+dig axfr inlanefreight.local @10.129.229.147
+```
+
+
+
