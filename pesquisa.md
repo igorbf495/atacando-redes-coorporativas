@@ -4,19 +4,12 @@ iniciei com uma varredura do nmap para ver portas abertas
 
 <img width="715" height="377" alt="image" src="https://github.com/user-attachments/assets/85e1d6c8-fcb1-4297-b05f-7e60f808ea72" />
 
+
 11 portas abertas, pelo visto é um servidor web, vou realizar uma varredura completa
 
 
-
 ```
 
-nmap --open -A 10.129.229.147 -p-
-
-```
-
-
-```
-root@c7po:~# nmap --open -A 10.129.229.147 -p-
 Starting Nmap 7.94SVN ( https://nmap.org ) at 2025-08-10 16:01 CDT
 Nmap scan report for 10.129.229.147
 Host is up (0.013s latency).
