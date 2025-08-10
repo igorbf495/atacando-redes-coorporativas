@@ -23,4 +23,9 @@ Porta 111: rpcbind
 
 <img width="519" height="95" alt="image" src="https://github.com/user-attachments/assets/5121ea25-a875-48fe-9c92-58eed6b3f7d2" />
 
-não consigo fazer upload de arquivos, vamos para o proximo serviço
+não consigo fazer upload de arquivos, vamos para o proximo serviço.
+
+ssh - sem sucesso
+
+SSH-2.0-OpenSSH_8.2p1 Ubuntu-4ubuntu0.5
+
