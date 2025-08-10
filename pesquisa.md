@@ -153,9 +153,26 @@ tem um dns rodando:
 
 Transferência de Zona DNS para ver se conseguimos enumerar subdomínios válidos:
 
-```
-dig axfr inlanefreight.local @10.129.229.147
-```
+<img width="1230" height="518" alt="image" src="https://github.com/user-attachments/assets/b5f56957-1efb-4566-a68d-8e8b10d60ccc" />
+
+
+### Fuzzign de vhots
+
+Precisamos primeiro descobrir como é a resposta.
+
+<img width="534" height="229" alt="image" src="https://github.com/user-attachments/assets/2edd926f-76f7-4ee4-80e9-60144a397196" />
+
+no cabeçalho do host nos dá um tamanho de resposta de 15157.
+
+<img width="1330" height="763" alt="image" src="https://github.com/user-attachments/assets/78f8c83c-235d-466c-9a57-e7058fa649bc" />
+
+
+adicionando subdominios/vhosts no /etc/hosts
+
+<img width="1310" height="342" alt="image" src="https://github.com/user-attachments/assets/6d358ef2-67e5-461d-9e7c-e54918bfa1b8" />
+
+
+
 
 
 
