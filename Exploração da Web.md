@@ -38,6 +38,8 @@ Logo de cara identificamos um IDOR
 
 <img width="580" height="355" alt="image" src="https://github.com/user-attachments/assets/c97030bc-9fea-4d86-ad74-25178f3d23fb" />
 
+
+
 IDOR (Insecure Direct Object Reference), ou Referência Direta de Objeto Insegura, ocorre quando um aplicativo web permite que usuários acessem dados ou recursos através de identificadores diretos (como IDs em URLs ou parâmetros de formulário) sem verificar se o usuário tem permissão para acessá-los. Essencialmente, um atacante pode manipular esses identificadores para acessar informações ou funcionalidades que não deveria ter acesso.
 
 Basicamente conseguimos mudar de conta passando outro id.
