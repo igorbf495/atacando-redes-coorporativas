@@ -42,5 +42,5 @@ a porta 111 é o rpcbind, um servicoe que nao deve ser exposto extermanemte. Nã
 
 <img width="805" height="303" alt="image" src="https://github.com/user-attachments/assets/dce325bc-7253-4ba8-b443-4275d9ae1492" />
 
-por ultimo, temos a porta 80, http.
+por ultimo, temos a porta 80, http. Vamos entrar na parte de exploração da Web.
 
