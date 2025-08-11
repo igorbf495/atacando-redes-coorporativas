@@ -29,3 +29,18 @@ ssh - sem sucesso
 
 SSH-2.0-OpenSSH_8.2p1 Ubuntu-4ubuntu0.5
 
+
+rodei novamente um nmap na porta 25 que está rodando um serviço smtp, serviço de email
+
+<img width="1250" height="295" alt="image" src="https://github.com/user-attachments/assets/b8f4dc29-c66c-42d8-ac74-cf24da430970" />
+
+tentei um nmap com script e tbm sem resposta
+
+<img width="788" height="249" alt="image" src="https://github.com/user-attachments/assets/70a23c95-6134-4ade-83ea-c3b481b8ae77" />
+
+a porta 111 é o rpcbind, um servicoe que nao deve ser exposto extermanemte. Não identifiquei nada de interessante tb
+
+<img width="805" height="303" alt="image" src="https://github.com/user-attachments/assets/dce325bc-7253-4ba8-b443-4275d9ae1492" />
+
+por ultimo, temos a porta 80, http.
+
