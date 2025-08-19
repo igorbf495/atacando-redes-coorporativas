@@ -44,3 +44,9 @@ IDOR (Insecure Direct Object Reference), ou Referência Direta de Objeto Insegur
 
 Basicamente conseguimos mudar de conta passando outro id.
 
+Continuei a busca mas não encontrei nada demais, vamos para o próximo domínio.
+
+http://dev.inlanefreight.local/
+
+
+
