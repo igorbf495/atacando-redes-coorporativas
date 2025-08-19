@@ -48,5 +48,17 @@ Continuei a busca mas não encontrei nada demais, vamos para o próximo domínio
 
 http://dev.inlanefreight.local/
 
+<img width="939" height="590" alt="image" src="https://github.com/user-attachments/assets/95cb4772-609b-4010-a403-72c28ca8a920" />
+
+Parece que essa aplicação é gerenciador de senhas, de início temos um formulário de login.
+
+<img width="1809" height="795" alt="image" src="https://github.com/user-attachments/assets/159179cb-cb30-4eec-9fe6-5504d2368044" />
+
+gobuster dir -u http://dev.inlanefreight.local -w /usr/share/wordlists/dirb/common.txt  -x php -t 300
+
+<img width="910" height="791" alt="image" src="https://github.com/user-attachments/assets/8b249ab5-3e82-4253-862c-c315d2f82b7f" />
+
+
+
 
 
